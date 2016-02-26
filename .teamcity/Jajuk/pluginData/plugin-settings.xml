@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <settings>
   <versionedSettings rootId="Jajuk_HttpsGithubComAicidnnJajukGitRefsHeadsMaster" enabled="true" showChanges="true" buildSettings="PREFER_VCS" />
+  <project-graphs>
+    <graph title="Jajuk" defaultFilters="" hideFilters="" id="customGraph3" seriesTitle="Serie">
+      <valueType key="ArtifactsSize" title="Total Artifacts Size" sourceBuildTypeId="Jajuk_Build" />
+    </graph>
+  </project-graphs>
   <report-tabs>
     <report-tab title="Jajuk" buildTypeId="Jajuk_Build">
       <revisionRule name="lastSuccessful" revision="latest.lastSuccessful" />
