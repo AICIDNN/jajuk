@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <settings>
   <versionedSettings rootId="Jajuk_HttpsGithubComAicidnnJajukGitRefsHeadsMaster" enabled="true" showChanges="true" buildSettings="PREFER_VCS" />
+  <report-tabs>
+    <report-tab title="Jajuk" buildTypeId="Jajuk_Build">
+      <revisionRule name="lastSuccessful" revision="latest.lastSuccessful" />
+    </report-tab>
+  </report-tabs>
 </settings>
 
