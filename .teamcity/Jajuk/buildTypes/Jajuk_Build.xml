@@ -19,7 +19,13 @@
       <vcs-entry-ref root-id="Jajuk_HttpsGithubComAicidnnJajukGitRefsHeadsMaster" />
     </vcs-settings>
     <requirements />
-    <build-triggers />
+    <build-triggers>
+      <build-trigger id="retryBuildTrigger" type="retryBuildTrigger">
+        <parameters>
+          <param name="enqueueTimeout" value="0" />
+        </parameters>
+      </build-trigger>
+    </build-triggers>
     <cleanup />
   </settings>
 </build-type>
